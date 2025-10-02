@@ -12,7 +12,8 @@ class Daemon(Enum):
     ScreenTime = [
         "com.apple.ScreenTimeAgent",
         "com.apple.homed",
-        "com.apple.familycircled"
+        "com.apple.familycircled",
+        "com.apple.familynotificationd"
     ]
     CrashReports = [
         "com.apple.ReportCrash",
@@ -44,7 +45,9 @@ class Daemon(Enum):
         "com.apple.pluginkit.pkreporter",
         "com.apple.ProxiedCrashCopier",
         "com.apple.ProxiedCrashCopier.ProxyingDevice",
-        "com.apple.ReportSystemMemory"
+        "com.apple.ReportSystemMemory",
+        "com.apple.osanalytics.osanalyticshubd",
+        "com.apple.osanalyticsd"
     ]
     Diagnostics = [
         "com.apple.diagnosticd",
@@ -54,7 +57,11 @@ class Daemon(Enum):
         "com.apple.symptomsd-diag",
         "com.apple.sysdiagnose",
         "com.apple.sysdiagnose.darwinos",
-        "com.apple.sysdiagnose_helper"
+        "com.apple.sysdiagnose_helper",
+        "com.apple.iosdiagnosticsd",
+        "com.apple.adid",
+        "com.apple.ap.adservicesd",
+        "com.apple.ap.adprivacyd"
     ]
     ATWAKEUP = ["com.apple.atc.atwakeup"]
     Tips = ["com.apple.tipsd"]
@@ -81,4 +88,16 @@ class Daemon(Enum):
         "com.apple.assistantd",
         "com.apple.voiced"
     ]
-    NanoTimeKit = ["com.apple.nanotimekitcompaniond"]
+    NanoTimeKit = [
+        "com.apple.nanotimekitcompaniond",
+        "com.apple.nanoregistryd",
+        "com.apple.nanoregistrylaunchd",
+        "com.apple.nanobackupd",
+        "com.apple.nanoprefsyncd",
+        "com.apple.nanomapscd",
+        "com.apple.nanoweatherprefsd",
+        "com.apple.nanonewscd",
+        "com.apple.nanoappregistryd",
+        "com.apple.nanomediaremotelinkagent",
+        "com.apple.nanophone.server"
+    ]

@@ -12,8 +12,9 @@ class Daemon(Enum):
     ScreenTime = [
         "com.apple.ScreenTimeAgent",
         "com.apple.homed",
-        "com.apple.familycircled",
-        "com.apple.familynotificationd"
+        "com.apple.tvremoted"
+#        "com.apple.familycircled",
+#        "com.apple.familynotificationd"
     ]
     CrashReports = [
         "com.apple.ReportCrash",
@@ -93,7 +94,7 @@ class Daemon(Enum):
         "com.apple.nanoregistryd",
         "com.apple.nanoregistrylaunchd",
         "com.apple.nanobackupd",
-        "com.apple.nanoprefsyncd",
+#        "com.apple.nanoprefsyncd",
         "com.apple.nanomapscd",
         "com.apple.nanoweatherprefsd",
         "com.apple.nanonewscd",

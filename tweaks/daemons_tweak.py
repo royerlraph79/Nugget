@@ -61,7 +61,7 @@ class Daemon(Enum):
         "com.apple.sysdiagnose_helper",
         "com.apple.iosdiagnosticsd",
         "com.apple.awdd",
-#        "com.apple.adid",
+        "com.apple.adid",
         "com.apple.ap.adservicesd",
         "com.apple.ap.adprivacyd"
     ]

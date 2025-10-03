@@ -62,8 +62,8 @@ class Daemon(Enum):
         "com.apple.iosdiagnosticsd",
         "com.apple.awdd",
 #        "com.apple.adid",
-        "com.apple.ap.adservicesd",
-        "com.apple.ap.adprivacyd"
+#        "com.apple.ap.adservicesd",
+#        "com.apple.ap.adprivacyd"
     ]
     ATWAKEUP = ["com.apple.atc.atwakeup"]
     Tips = ["com.apple.tipsd"]
@@ -101,5 +101,7 @@ class Daemon(Enum):
         "com.apple.nanonewscd",
         "com.apple.nanoappregistryd",
         "com.apple.nanomediaremotelinkagent",
-        "com.apple.nanophone.server"
+        "com.apple.nanophone.server",
+        "com.apple.companioncamerad",
+        "com.apple.companionmessagesd"
     ]

@@ -103,5 +103,10 @@ class Daemon(Enum):
         "com.apple.nanomediaremotelinkagent",
         "com.apple.nanophone.server",
         "com.apple.companioncamerad",
-        "com.apple.companionmessagesd"
+        "com.apple.companionmessagesd",
+        "com.apple.companion_proxy",
+        "com.apple.companionappd",
+        "com.apple.brook.brookcompaniond",
+        "com.apple.companionfindlocallyd",
+        "com.apple.magicswitchd.companiond"
     ]

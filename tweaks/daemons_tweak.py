@@ -12,7 +12,7 @@ class Daemon(Enum):
     ScreenTime = [
         "com.apple.ScreenTimeAgent",
         "com.apple.homed",
-        "com.apple.tvremoted"
+        "com.apple.tvremoted",
         "com.apple.familycircled",
         "com.apple.familynotificationd"
     ]
@@ -59,7 +59,8 @@ class Daemon(Enum):
         "com.apple.sysdiagnose",
         "com.apple.sysdiagnose.darwinos",
         "com.apple.sysdiagnose_helper",
-        "com.apple.iosdiagnosticsd"
+        "com.apple.iosdiagnosticsd",
+        "com.apple.awdd"
 #        "com.apple.adid",
 #        "com.apple.ap.adservicesd",
 #        "com.apple.ap.adprivacyd"
@@ -94,7 +95,7 @@ class Daemon(Enum):
 #        "com.apple.nanoregistryd",
 #        "com.apple.nanoregistrylaunchd",
         "com.apple.nanobackupd",
-#        "com.apple.nanoprefsyncd",
+        "com.apple.nanoprefsyncd",
         "com.apple.nanomapscd",
         "com.apple.nanoweatherprefsd",
         "com.apple.nanonewscd",

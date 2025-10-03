@@ -60,10 +60,10 @@ class Daemon(Enum):
         "com.apple.sysdiagnose.darwinos",
         "com.apple.sysdiagnose_helper",
         "com.apple.iosdiagnosticsd",
-        "com.apple.awdd"
+        "com.apple.awdd",
 #        "com.apple.adid",
-#        "com.apple.ap.adservicesd",
-#        "com.apple.ap.adprivacyd"
+        "com.apple.ap.adservicesd",
+        "com.apple.ap.adprivacyd"
     ]
     ATWAKEUP = ["com.apple.atc.atwakeup"]
     Tips = ["com.apple.tipsd"]

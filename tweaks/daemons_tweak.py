@@ -13,6 +13,11 @@ class Daemon(Enum):
         "com.apple.ScreenTimeAgent",
         "com.apple.homed",
         "com.apple.tvremoted",
+        "com.apple.newsd",
+        "com.apple.watchlistd",
+        "com.apple.bookdatastored",
+        "com.apple.bookassetd",
+        "com.apple.videosubscriptionsd",
         "com.apple.familycircled",
         "com.apple.familynotificationd"
     ]
@@ -47,8 +52,10 @@ class Daemon(Enum):
         "com.apple.ProxiedCrashCopier",
         "com.apple.ProxiedCrashCopier.ProxyingDevice",
         "com.apple.ReportSystemMemory",
-        "com.apple.osanalytics.osanalyticshubd",
-        "com.apple.osanalyticsd"
+        "com.apple.osanalytics.osanalyticshelper",
+        "com.apple.osanalyticsd",
+        "com.apple.metrickitd",
+        "com.apple.triald"
     ]
     Diagnostics = [
         "com.apple.diagnosticd",
@@ -63,7 +70,9 @@ class Daemon(Enum):
         "com.apple.awdd",
 #        "com.apple.adid",
         "com.apple.ap.adservicesd",
-        "com.apple.ap.adprivacyd"
+        "com.apple.ap.adprivacyd",
+        "com.apple.ap.promotedcontentd",
+        "com.apple.tailspind"
     ]
     ATWAKEUP = ["com.apple.atc.atwakeup"]
     Tips = ["com.apple.tipsd"]
@@ -108,5 +117,5 @@ class Daemon(Enum):
         "com.apple.companionappd",
         "com.apple.brook.brookcompaniond",
         "com.apple.companionfindlocallyd",
-        "com.apple.magicswitchd.companiond"
+        "com.apple.magicswitchd.companion"
     ]

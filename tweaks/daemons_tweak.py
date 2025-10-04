@@ -79,8 +79,8 @@ class Daemon(Enum):
         "com.apple.ap.adprivacyd",
         "com.apple.ap.promotedcontentd",
         "com.apple.tailspind",
-        "com.apple.asd",
-        "com.apple.perfdiagsselfenabled",
+        "com.apple.asd"
+#        "com.apple.perfdiagsselfenabled",
 #        "com.apple.pcapd"
     ]
     ATWAKEUP = ["com.apple.atc.atwakeup"]

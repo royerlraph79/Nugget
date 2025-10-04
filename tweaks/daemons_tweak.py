@@ -15,6 +15,7 @@ class Daemon(Enum):
         "com.apple.tvremoted",
         "com.apple.newsd",
         "com.apple.watchlistd",
+        "com.apple.businessservicesd",
         "com.apple.bookdatastored",
         "com.apple.bookassetd",
         "com.apple.videosubscriptionsd",

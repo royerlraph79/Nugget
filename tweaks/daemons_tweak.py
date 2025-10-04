@@ -81,7 +81,7 @@ class Daemon(Enum):
         "com.apple.tailspind",
         "com.apple.asd",
         "com.apple.perfdiagsselfenabled",
-        "com.apple.pcapd"
+#        "com.apple.pcapd"
     ]
     ATWAKEUP = ["com.apple.atc.atwakeup"]
     Tips = ["com.apple.tipsd"]

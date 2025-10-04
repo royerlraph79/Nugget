@@ -14,6 +14,11 @@ class Daemon(Enum):
         "com.apple.homed",
         "com.apple.tvremoted",
         "com.apple.newsd",
+        "com.apple.CarPlayApp",
+        "com.apple.carkitd",
+        "com.apple.sidecar-relay",
+        "com.apple.handwritingd",
+        "com.apple.dmd",
         "com.apple.watchlistd",
         "com.apple.businessservicesd",
         "com.apple.bookdatastored",
@@ -73,7 +78,10 @@ class Daemon(Enum):
         "com.apple.ap.adservicesd",
         "com.apple.ap.adprivacyd",
         "com.apple.ap.promotedcontentd",
-        "com.apple.tailspind"
+        "com.apple.tailspind",
+        "com.apple.asd",
+        "com.apple.perfdiagsselfenabled",
+        "com.apple.pcapd"
     ]
     ATWAKEUP = ["com.apple.atc.atwakeup"]
     Tips = ["com.apple.tipsd"]

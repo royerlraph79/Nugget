@@ -15,7 +15,7 @@ class Daemon(Enum):
         "com.apple.tvremoted",
         "com.apple.newsd",
         "com.apple.CarPlayApp",
-        "com.apple.carkitd",
+#        "com.apple.carkitd",
         "com.apple.sidecar-relay",
         "com.apple.handwritingd",
 #        "com.apple.dmd",

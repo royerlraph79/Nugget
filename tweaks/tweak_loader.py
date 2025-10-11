@@ -364,12 +364,12 @@ def load_daemons():
         "Daemons": AdvancedPlistTweak(
             FileLocation.disabledDaemons,
             {
-                "com.apple.magicswitchd.companion": True,
-                "com.apple.security.otpaird": True,
-                "com.apple.dhcp6d": True,
-                "com.apple.bootpd": True,
-                "com.apple.ftp-proxy-embedded": False,
-                "com.apple.relevanced": True
+#                "com.apple.magicswitchd.companion": True,
+#                "com.apple.security.otpaird": True,
+#                "com.apple.dhcp6d": True,
+#                "com.apple.bootpd": True,
+#                "com.apple.ftp-proxy-embedded": False,
+#                "com.apple.relevanced": True
             },
             owner=0, group=0
         ),

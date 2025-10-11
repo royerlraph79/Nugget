@@ -88,7 +88,9 @@ class Daemon(Enum):
     VPN = ["com.apple.racoon"]
     ChineseLAN = [
         "com.apple.wapic",
-        "com.apple.wifi.wapic"
+        "com.apple.wifi.wapic",
+        "com.apple.bootpd",
+        "com.apple.ftp-proxy-embedded"
     ]
     HealthKit = [
 #        "com.apple.healthd",
@@ -101,11 +103,12 @@ class Daemon(Enum):
     InternetTethering = ["com.apple.MobileInternetSharing"]
     PassBook = ["com.apple.passd"]
     Spotlight = [
-        "com.apple.searchd",
-        "com.apple.corespotlightservice",
-        "com.apple.spotlightknowledged",
-        "com.apple.spotlightknowledged.updater",
-        "com.apple.spotlight.IndexAgent"
+#        "com.apple.searchd",
+#        "com.apple.corespotlightservice",
+#        "com.apple.spotlightknowledged",
+#        "com.apple.spotlightknowledged.updater",
+#        "com.apple.spotlight.IndexAgent",
+        "com.apple.relevanced"
     ]
     VoiceControl = [
         "com.apple.assistant_service",

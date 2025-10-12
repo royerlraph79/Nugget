@@ -5471,6 +5471,16 @@ QComboBox QAbstractItemView::item:hover {
                   </widget>
                  </item>
                  <item>
+                  <widget class="QCheckBox" name="screenRecordChk">
+                   <property name="toolTip">
+                    <string>Disables detecting when the screen is being recorded</string>
+                   </property>
+                   <property name="text">
+                    <string>Bypass Screen Recording Detection</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
                   <widget class="QCheckBox" name="floatingTabBarChk">
                    <property name="text">
                     <string>Disable Floating Tab Bar</string>

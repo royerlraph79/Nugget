@@ -2902,6 +2902,11 @@ class Ui_Nugget(object):
 
         self._2.addWidget(self.authEngUICheck)
 
+        self.screenRecordChk = QCheckBox(self.springboardOptionsPageContent)
+        self.screenRecordChk.setObjectName(u"screenRecordChk")
+
+        self._2.addWidget(self.screenRecordChk)
+        
         self.floatingTabBarChk = QCheckBox(self.springboardOptionsPageContent)
         self.floatingTabBarChk.setObjectName(u"floatingTabBarChk")
 
@@ -4912,6 +4917,10 @@ class Ui_Nugget(object):
         self.showApertureInSnapshotsChk.setText(QCoreApplication.translate("Nugget", u"Show Dynamic Island in Screenshots", None))
         self.enableAirPlayChk.setText(QCoreApplication.translate("Nugget", u"Enable AirPlay support for Stage Manager", None))
         self.authEngUICheck.setText(QCoreApplication.translate("Nugget", u"Show Red/Green Authentication Line on Lock Screen", None))
+        #if QT_CONFIG(tooltip)
+        self.screenRecordChk.setToolTip(QCoreApplication.translate("Nugget", u"Disables detecting when the screen is being recorded", None))
+#endif // QT_CONFIG(tooltip)
+        self.screenRecordChk.setText(QCoreApplication.translate("Nugget", u"Bypass Screen Recording Detection", None))
         self.floatingTabBarChk.setText(QCoreApplication.translate("Nugget", u"Disable Floating Tab Bar", None))
         self.internalOptionsLbl1.setText(QCoreApplication.translate("Nugget", u"Internal Options", None))
         self.disableSolariumChk.setText(QCoreApplication.translate("Nugget", u"Disable Liquid Glass", None))

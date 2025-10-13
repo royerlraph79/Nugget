@@ -98,7 +98,10 @@ class Daemon(Enum):
         "com.apple.fitcore"
     ]
     AirPrint = ["com.apple.printd"]
-    AssistiveTouch = ["com.apple.assistivetouchd"]
+    AssistiveTouch = [
+        "com.apple.assistivetouchd",
+        "com.apple.VoiceOverTouch"
+    ]
     iCloud = ["com.apple.itunescloudd"]
     InternetTethering = ["com.apple.MobileInternetSharing"]
     PassBook = ["com.apple.passd"]
@@ -107,13 +110,16 @@ class Daemon(Enum):
         "com.apple.corespotlightservice",
         "com.apple.spotlightknowledged",
         "com.apple.spotlightknowledged.updater",
-        "com.apple.spotlight.IndexAgent",
+#        "com.apple.spotlight.IndexAgent",
         "com.apple.relevanced"
     ]
     VoiceControl = [
-        "com.apple.assistant_service",
-        "com.apple.assistantd",
-        "com.apple.voiced"
+#        "com.apple.assistant_service",
+#        "com.apple.assistantd",
+        "com.apple.voiced",
+        "com.apple.accessibility.speechd",
+        "com.apple.voiceserverd",
+        "com.apple.siriinferenced"
     ]
     NanoTimeKit = [
         "com.apple.nanotimekitcompaniond",

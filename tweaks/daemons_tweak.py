@@ -104,10 +104,10 @@ class Daemon(Enum):
     PassBook = ["com.apple.passd"]
     Spotlight = [
 #        "com.apple.searchd",
-#        "com.apple.corespotlightservice",
-#        "com.apple.spotlightknowledged",
-#        "com.apple.spotlightknowledged.updater",
-#        "com.apple.spotlight.IndexAgent",
+        "com.apple.corespotlightservice",
+        "com.apple.spotlightknowledged",
+        "com.apple.spotlightknowledged.updater",
+        "com.apple.spotlight.IndexAgent",
         "com.apple.relevanced"
     ]
     VoiceControl = [

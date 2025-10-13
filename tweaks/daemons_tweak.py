@@ -13,17 +13,21 @@ class Daemon(Enum):
         "com.apple.ScreenTimeAgent",
         "com.apple.homed",
         "com.apple.tvremoted",
+        "com.apple.TVRemoteConnectionService",
         "com.apple.newsd",
         "com.apple.CarPlayApp",
 #        "com.apple.carkitd",
         "com.apple.sidecar-relay",
         "com.apple.handwritingd",
 #        "com.apple.dmd",
+        "com.apple.handoffd",
         "com.apple.watchlistd",
         "com.apple.businessservicesd",
         "com.apple.bookdatastored",
         "com.apple.bookassetd",
         "com.apple.videosubscriptionsd",
+        "com.apple.VideoSubscriberAccount.DeveloperService",
+        "com.apple.VideoSubscriberAccount.PrivacyService",
         "com.apple.familycircled",
         "com.apple.familynotificationd"
     ]
@@ -61,7 +65,9 @@ class Daemon(Enum):
         "com.apple.osanalytics.osanalyticshelper",
         "com.apple.osanalyticsd",
         "com.apple.metrickitd",
-        "com.apple.triald"
+        "com.apple.triald",
+        "com.apple.siri-distributed-evaluation",
+        "com.apple.suggestd"
     ]
     Diagnostics = [
         "com.apple.diagnosticd",
@@ -81,7 +87,9 @@ class Daemon(Enum):
         "com.apple.tailspind",
         "com.apple.asd",
         "com.apple.perfdiagsselfenabled",
-        "com.apple.pcapd"
+        "com.apple.pcapd",
+        "com.apple.aspcarrylog",
+        "com.apple.CAReportingService"
     ]
     ATWAKEUP = ["com.apple.atc.atwakeup"]
     Tips = ["com.apple.tipsd"]
@@ -95,7 +103,8 @@ class Daemon(Enum):
     HealthKit = [
 #        "com.apple.healthd",
         "com.apple.matd",
-        "com.apple.fitcore"
+        "com.apple.fitcore",
+        "com.apple.fitcoresessiond"
     ]
     AirPrint = ["com.apple.printd"]
     AssistiveTouch = [
@@ -119,7 +128,8 @@ class Daemon(Enum):
         "com.apple.voiced",
         "com.apple.accessibility.speechd",
         "com.apple.voiceserverd",
-        "com.apple.siriinferenced"
+        "com.apple.siriinferenced",
+        "com.apple.CommandAndControl"
     ]
     NanoTimeKit = [
         "com.apple.nanotimekitcompaniond",
@@ -139,5 +149,13 @@ class Daemon(Enum):
         "com.apple.companionappd",
         "com.apple.brook.brookcompaniond",
         "com.apple.companionfindlocallyd",
-        "com.apple.magicswitchd.companion"
+        "com.apple.magicswitchd.companion",
+        "com.apple.clipserviced",
+        "com.apple.appclipd",
+        "com.apple.appclipsd",
+        "com.apple.appclips.events",
+        "com.apple.appclips.update",
+        "com.apple.appclips.servicesd",
+        "com.apple.appclips.appdiscoveryd",
+        "com.apple.appstored.AppClipService"
     ]

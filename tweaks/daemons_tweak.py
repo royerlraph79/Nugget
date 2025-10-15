@@ -127,8 +127,8 @@ class Daemon(Enum):
 #        "com.apple.assistantd",
         "com.apple.voiced",
         "com.apple.accessibility.speechd",
-        "com.apple.voiceserverd",
-        "com.apple.siriinferenced",
+#        "com.apple.voiceserverd",
+#        "com.apple.siriinferenced",
         "com.apple.speechsynthesisd",
         "com.apple.CommandAndControl"
     ]

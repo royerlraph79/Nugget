@@ -126,7 +126,7 @@ class Daemon(Enum):
         "com.apple.accessibility.speechd",
 #        "com.apple.voiceserverd",
 #        "com.apple.siriinferenced",
-        "com.apple.speechsynthesisd",
+#        "com.apple.speechsynthesisd",
         "com.apple.CommandAndControl",
         "com.apple.VoiceOverTouch"
     ]

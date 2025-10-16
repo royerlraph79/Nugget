@@ -65,8 +65,8 @@ class Daemon(Enum):
         "com.apple.osanalytics.osanalyticshelper",
         "com.apple.osanalyticsd",
         "com.apple.metrickitd",
-        "com.apple.triald",
-#        "com.apple.siri-distributed-evaluation",
+#        "com.apple.triald",
+        "com.apple.siri-distributed-evaluation",
         "com.apple.suggestd"
     ]
     Diagnostics = [

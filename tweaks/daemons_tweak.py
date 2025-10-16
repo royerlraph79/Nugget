@@ -122,7 +122,7 @@ class Daemon(Enum):
     VoiceControl = [
 #        "com.apple.assistant_service",
 #        "com.apple.assistantd",
-        "com.apple.voiced",
+#        "com.apple.voiced",
         "com.apple.accessibility.speechd",
 #        "com.apple.voiceserverd",
 #        "com.apple.siriinferenced",

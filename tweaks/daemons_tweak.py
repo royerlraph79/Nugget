@@ -20,7 +20,7 @@ class Daemon(Enum):
         "com.apple.sidecar-relay",
         "com.apple.handwritingd",
 #        "com.apple.dmd",
-#        "com.apple.handoffd",
+        "com.apple.handoffd",
         "com.apple.watchlistd",
         "com.apple.businessservicesd",
         "com.apple.bookdatastored",

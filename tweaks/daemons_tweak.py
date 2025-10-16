@@ -103,7 +103,7 @@ class Daemon(Enum):
     HealthKit = [
 #        "com.apple.healthd",
         "com.apple.matd",
-        "com.apple.fitcore",
+        "com.apple.fitcored",
         "com.apple.fitcoresessiond"
     ]
     AirPrint = ["com.apple.printd"]

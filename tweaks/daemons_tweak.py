@@ -66,7 +66,7 @@ class Daemon(Enum):
         "com.apple.osanalyticsd",
         "com.apple.metrickitd",
         "com.apple.triald",
-        "com.apple.siri-distributed-evaluation",
+#        "com.apple.siri-distributed-evaluation",
         "com.apple.suggestd"
     ]
     Diagnostics = [
@@ -122,11 +122,11 @@ class Daemon(Enum):
     VoiceControl = [
 #        "com.apple.assistant_service",
 #        "com.apple.assistantd",
-#        "com.apple.voiced",
+        "com.apple.voiced",
         "com.apple.accessibility.speechd",
-#        "com.apple.voiceserverd",
+        "com.apple.voiceserverd",
 #        "com.apple.siriinferenced",
-#        "com.apple.speechsynthesisd",
+        "com.apple.speechsynthesisd",
         "com.apple.CommandAndControl",
         "com.apple.VoiceOverTouch"
     ]

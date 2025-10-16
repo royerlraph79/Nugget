@@ -20,7 +20,7 @@ class Daemon(Enum):
         "com.apple.sidecar-relay",
         "com.apple.handwritingd",
 #        "com.apple.dmd",
-        "com.apple.handoffd",
+#        "com.apple.handoffd",
         "com.apple.watchlistd",
         "com.apple.businessservicesd",
         "com.apple.bookdatastored",
@@ -107,10 +107,7 @@ class Daemon(Enum):
         "com.apple.fitcoresessiond"
     ]
     AirPrint = ["com.apple.printd"]
-    AssistiveTouch = [
-        "com.apple.assistivetouchd",
-        "com.apple.VoiceOverTouch"
-    ]
+    AssistiveTouch = ["com.apple.assistivetouchd"]
     iCloud = ["com.apple.itunescloudd"]
     InternetTethering = ["com.apple.MobileInternetSharing"]
     PassBook = ["com.apple.passd"]
@@ -130,7 +127,8 @@ class Daemon(Enum):
 #        "com.apple.voiceserverd",
 #        "com.apple.siriinferenced",
         "com.apple.speechsynthesisd",
-        "com.apple.CommandAndControl"
+        "com.apple.CommandAndControl",
+        "com.apple.VoiceOverTouch"
     ]
     NanoTimeKit = [
         "com.apple.nanotimekitcompaniond",

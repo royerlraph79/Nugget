@@ -22,14 +22,22 @@ class Daemon(Enum):
 #        "com.apple.dmd",
         "com.apple.handoffd",
         "com.apple.watchlistd",
-        "com.apple.businessservicesd",
+#        "com.apple.businessservicesd",
         "com.apple.bookdatastored",
         "com.apple.bookassetd",
         "com.apple.videosubscriptionsd",
         "com.apple.VideoSubscriberAccount.DeveloperService",
         "com.apple.VideoSubscriberAccount.PrivacyService",
         "com.apple.familycircled",
-        "com.apple.familynotificationd"
+        "com.apple.familynotificationd",
+        "com.apple.exchangesyncd",
+        "com.apple.calaccessd",
+        "com.apple.managedconfiguration.mdmd",
+        "com.apple.managedconfiguration.passcodenagd",
+        "com.apple.remotemanagementd",
+        "com.apple.mobilestoredemod",
+        "com.apple.mobilestoredemodhelper",
+        "com.apple.progressd"
     ]
     CrashReports = [
         "com.apple.ReportCrash",
@@ -66,8 +74,8 @@ class Daemon(Enum):
         "com.apple.osanalyticsd",
         "com.apple.metrickitd",
 #        "com.apple.triald",
-        "com.apple.siri-distributed-evaluation",
-        "com.apple.suggestd"
+        "com.apple.siri-distributed-evaluation"
+#        "com.apple.suggestd"
     ]
     Diagnostics = [
         "com.apple.diagnosticd",
@@ -89,7 +97,10 @@ class Daemon(Enum):
         "com.apple.perfdiagsselfenabled",
         "com.apple.pcapd",
         "com.apple.aspcarrylog",
-        "com.apple.CAReportingService"
+        "com.apple.CAReportingService",
+        "com.apple.checkerboard",
+        "com.apple.checkerboardd",
+        "com.apple.managedconfiguration.teslad"
     ]
     ATWAKEUP = ["com.apple.atc.atwakeup"]
     Tips = ["com.apple.tipsd"]
@@ -103,8 +114,8 @@ class Daemon(Enum):
     HealthKit = [
 #        "com.apple.healthd",
         "com.apple.matd",
-        "com.apple.fitcored",
-        "com.apple.fitcoresessiond"
+        "com.apple.fitcore",
+        "com.apple.fitcore.session"
     ]
     AirPrint = ["com.apple.printd"]
     AssistiveTouch = ["com.apple.assistivetouchd"]
@@ -114,10 +125,11 @@ class Daemon(Enum):
     Spotlight = [
 #        "com.apple.searchd",
         "com.apple.corespotlightservice",
+        "com.apple.corespotlightd",
         "com.apple.spotlightknowledged",
         "com.apple.spotlightknowledged.updater",
 #        "com.apple.spotlight.IndexAgent",
-        "com.apple.relevanced"
+#        "com.apple.relevanced"
     ]
     VoiceControl = [
 #        "com.apple.assistant_service",
@@ -127,7 +139,7 @@ class Daemon(Enum):
         "com.apple.voiceserverd",
 #        "com.apple.siriinferenced",
         "com.apple.speechsynthesisd",
-        "com.apple.CommandAndControl",
+        "com.apple.commandandcontrol",
         "com.apple.VoiceOverTouch"
     ]
     NanoTimeKit = [
@@ -149,7 +161,7 @@ class Daemon(Enum):
         "com.apple.brook.brookcompaniond",
         "com.apple.companionfindlocallyd",
         "com.apple.magicswitchd.companion",
-        "com.apple.clipserviced",
+        "com.apple.ClipServices.clipserviced",
         "com.apple.appclipd",
         "com.apple.appclipsd",
         "com.apple.appclips.events",

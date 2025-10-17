@@ -37,7 +37,9 @@ class Daemon(Enum):
         "com.apple.remotemanagementd",
         "com.apple.mobilestoredemod",
         "com.apple.mobilestoredemodhelper",
-        "com.apple.progressd"
+        "com.apple.progressd",
+        "com.apple.classkitd",
+        "com.apple.studentd"
     ]
     CrashReports = [
         "com.apple.ReportCrash",
@@ -100,9 +102,13 @@ class Daemon(Enum):
         "com.apple.CAReportingService",
         "com.apple.checkerboard",
         "com.apple.checkerboardd",
-        "com.apple.managedconfiguration.teslad"
+        "com.apple.managedconfiguration.teslad",
+        "com.apple.accessibility.axAuditDaemon.deviceservice"
     ]
-    ATWAKEUP = ["com.apple.atc.atwakeup"]
+    ATWAKEUP = [
+        "com.apple.atc.atwakeup",
+        "com.apple.atrun"
+    ]
     Tips = ["com.apple.tipsd"]
     VPN = ["com.apple.racoon"]
     ChineseLAN = [
@@ -118,7 +124,15 @@ class Daemon(Enum):
         "com.apple.fitcore.session"
     ]
     AirPrint = ["com.apple.printd"]
-    AssistiveTouch = ["com.apple.assistivetouchd"]
+    AssistiveTouch = [
+        "com.apple.assistivetouchd",
+        "com.apple.accessibility.guidedaccessd",
+        "com.apple.accessibility.colorfilterd",
+        "com.apple.accessibility.axvisualalerts",
+        "com.apple.accessibility.magnifierd",
+        "com.apple.accessibility.remotecontrol",
+        "com.apple.accessibility.heard"
+    ]
     iCloud = ["com.apple.itunescloudd"]
     InternetTethering = ["com.apple.MobileInternetSharing"]
     PassBook = ["com.apple.passd"]
@@ -127,9 +141,10 @@ class Daemon(Enum):
         "com.apple.corespotlightservice",
         "com.apple.corespotlightd",
         "com.apple.spotlightknowledged",
-        "com.apple.spotlightknowledged.updater",
+        "com.apple.spotlightknowledged.updater"
 #        "com.apple.spotlight.IndexAgent",
-#        "com.apple.relevanced"
+#        "com.apple.relevanced",
+#        "com.apple.relevanced.ios"
     ]
     VoiceControl = [
 #        "com.apple.assistant_service",
@@ -138,9 +153,10 @@ class Daemon(Enum):
         "com.apple.accessibility.speechd",
         "com.apple.voiceserverd",
 #        "com.apple.siriinferenced",
-        "com.apple.speechsynthesisd",
+#        "com.apple.speechsynthesisd",
         "com.apple.commandandcontrol",
-        "com.apple.VoiceOverTouch"
+        "com.apple.VoiceOverTouch",
+        "com.apple.accessibility.voiceovertrainingd"
     ]
     NanoTimeKit = [
         "com.apple.nanotimekitcompaniond",
@@ -148,6 +164,10 @@ class Daemon(Enum):
 #        "com.apple.nanoregistrylaunchd",
         "com.apple.nanobackupd",
         "com.apple.nanoprefsyncd",
+        "com.apple.nanosystemsettingsd",
+        "com.apple.NPKCompanionAgent",
+        "com.apple.nptocompaniond",
+        "com.apple.resourcegrabberd.companion",
         "com.apple.nanomapscd",
         "com.apple.nanoweatherprefsd",
         "com.apple.nanonewscd",
@@ -161,6 +181,9 @@ class Daemon(Enum):
         "com.apple.brook.brookcompaniond",
         "com.apple.companionfindlocallyd",
         "com.apple.magicswitchd.companion",
+        "com.apple.pairedunlockd-phone",
+        "com.apple.pairedsyncd",
+        "com.apple.appconduitd",
         "com.apple.ClipServices.clipserviced",
         "com.apple.appclipd",
         "com.apple.appclipsd",
